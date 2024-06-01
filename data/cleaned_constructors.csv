@@ -1,0 +1,212 @@
+constructorId,constructor_name,constructor_nationality,constructor_home
+1,McLaren,British,UK
+2,BMW Sauber,German,Germany
+3,Williams,British,UK
+4,Renault,French,France
+5,Toro Rosso,Italian,Italy
+6,Ferrari,Italian,Italy
+7,Toyota,Japanese,Japan
+8,Super Aguri,Japanese,Japan
+9,Red Bull,Austrian,Austria
+10,Force India,Indian,India
+11,Honda,Japanese,Japan
+12,Spyker,Dutch,Netherlands
+13,MF1,Russian,Russia
+14,Spyker MF1,Dutch,Netherlands
+15,Sauber,Swiss,Switzerland
+16,BAR,British,UK
+17,Jordan,Irish,Ireland
+18,Minardi,Italian,Italy
+19,Jaguar,British,UK
+20,Prost,French,France
+21,Arrows,British,UK
+22,Benetton,Italian,Italy
+23,Brawn,British,UK
+24,Stewart,British,UK
+25,Tyrrell,British,UK
+26,Lola,British,UK
+27,Ligier,French,France
+28,Forti,Italian,Italy
+29,Footwork,British,UK
+30,Pacific,British,UK
+31,Simtek,British,UK
+32,Team Lotus,British,UK
+33,Larrousse,French,France
+34,Brabham,British,UK
+35,Dallara,Italian,Italy
+36,Fondmetal,Italian,Italy
+37,March,British,UK
+38,Andrea Moda,Italian,Italy
+39,AGS,French,France
+40,Lambo,Italian,Italy
+41,Leyton House,British,UK
+42,Coloni,Italian,Italy
+44,Euro Brun,Italian,Italy
+45,Osella,Italian,Italy
+46,Onyx,British,UK
+47,Life,Italian,Italy
+48,Rial,German,Germany
+49,Zakspeed,German,Germany
+50,RAM,British,UK
+51,Alfa Romeo,Swiss,Switzerland
+52,Spirit,British,UK
+53,Toleman,British,UK
+54,ATS,Italian,Italy
+55,Theodore,Hong Kong,Hong Kong
+56,Fittipaldi,Brazilian,Brazil
+57,Ensign,British,UK
+58,Shadow,British,UK
+59,Wolf,Canadian,Canada
+60,Merzario,Italian,Italy
+61,Kauhsen,German,Germany
+62,Rebaque,Mexican,Mexico
+63,Surtees,British,UK
+64,Hesketh,British,UK
+65,Martini,French,France
+66,BRM,British,UK
+67,Penske,American,USA
+68,LEC,British,UK
+69,McGuire,Australian,Australia
+70,Boro,Dutch,Netherlands
+71,Apollon,Swiss,Switzerland
+72,Kojima,Japanese,Japan
+73,Parnelli,American,USA
+74,Maki,Japanese,Japan
+75,Embassy Hill,British,UK
+76,Lyncar,British,UK
+77,Trojan,British,UK
+78,Amon,New Zealander,New Zealand
+79,Token,British,UK
+80,Iso Marlboro,British,UK
+81,Tecno,Italian,Italy
+82,Matra,French,France
+83,Politoys,British,UK
+84,Connew,British,UK
+85,Bellasi,Swiss,Switzerland
+86,De Tomaso,Italian,Italy
+87,Cooper,British,UK
+88,Eagle,American,USA
+89,LDS,South African,South Africa
+90,Protos,British,UK
+91,Shannon,British,UK
+92,Scirocco,British,UK
+93,RE,Rhodesian,Rhodesia
+94,BRP,British,UK
+95,Porsche,German,Germany
+96,Derrington,British,UK
+97,Gilby,British,UK
+98,Stebro,Canadian,Canada
+99,Emeryson,British,UK
+100,ENB,Belgian,Belgium
+101,JBW,British,UK
+102,Ferguson,British,UK
+103,MBM,Swiss,Switzerland
+104,Behra-Porsche,Italian,Italy
+105,Maserati,Italian,Italy
+106,Scarab,American,USA
+107,Watson,American,USA
+108,Epperly,American,USA
+109,Phillips,American,USA
+110,Lesovsky,American,USA
+111,Trevis,American,USA
+112,Meskowski,American,USA
+113,Kurtis Kraft,American,USA
+114,Kuzma,American,USA
+115,Christensen,American,USA
+116,Ewing,American,USA
+117,Aston Martin,British,UK
+118,Vanwall,British,UK
+119,Moore,American,USA
+120,Dunn,American,USA
+121,Elder,American,USA
+122,Sutton,American,USA
+123,Fry,British,UK
+124,Tec-Mec,Italian,Italy
+125,Connaught,British,UK
+126,Alta,British,UK
+127,OSCA,Italian,Italy
+128,Gordini,French,France
+129,Stevens,American,USA
+130,Bugatti,French,France
+131,Mercedes,German,Germany
+132,Lancia,Italian,Italy
+133,HWM,British,UK
+134,Schroeder,American,USA
+135,Pawl,American,USA
+136,Pankratz,American,USA
+137,Arzani-Volpini,Italian,Italy
+138,Nichels,American,USA
+139,Bromme,American,USA
+140,Klenk,German,Germany
+141,Simca,French,France
+142,Turner,American,USA
+143,Del Roy,American,USA
+144,Veritas,German,Germany
+145,BMW,German,Germany
+146,EMW,German,Germany
+147,AFM,German,Germany
+148,Frazer Nash,British,UK
+149,Sherman,American,USA
+150,Deidt,American,USA
+151,ERA,British,UK
+152,Aston Butterworth,British,UK
+153,Cisitalia,Italian,Italy
+154,Talbot-Lago,French,France
+155,Hall,American,USA
+156,Marchese,American,USA
+157,Langley,American,USA
+158,Rae,American,USA
+159,Olson,American,USA
+160,Wetteroth,American,USA
+161,Adams,American,USA
+162,Snowberger,American,USA
+163,Milano,Italian,Italy
+164,HRT,Spanish,Spain
+167,Cooper-Maserati,British,UK
+166,Virgin,British,UK
+168,Cooper-OSCA,British,UK
+169,Cooper-Borgward,British,UK
+170,Cooper-Climax,British,UK
+171,Cooper-Castellotti,British,UK
+172,Lotus-Climax,British,UK
+173,Lotus-Maserati,British,UK
+174,De Tomaso-Osca,Italian,Italy
+175,De Tomaso-Alfa Romeo,Italian,Italy
+176,Lotus-BRM,British,UK
+177,Lotus-Borgward,British,UK
+178,Cooper-Alfa Romeo,British,UK
+179,De Tomaso-Ferrari,Italian,Italy
+180,Lotus-Ford,British,UK
+181,Brabham-BRM,British,UK
+182,Brabham-Ford,British,UK
+183,Brabham-Climax,British,UK
+184,LDS-Climax,South African,South Africa
+185,LDS-Alfa Romeo,South African,South Africa
+186,Cooper-Ford,British,UK
+187,McLaren-Ford,British,UK
+188,McLaren-Serenissima,British,UK
+189,Eagle-Climax,American,USA
+190,Eagle-Weslake,American,USA
+191,Brabham-Repco,British,UK
+192,Cooper-Ferrari,British,UK
+193,Cooper-ATS,British,UK
+194,McLaren-BRM,British,UK
+195,Cooper-BRM,British,UK
+196,Matra-Ford,French,France
+197,BRM-Ford,British,UK
+198,McLaren-Alfa Romeo,British,UK
+199,March-Alfa Romeo,British,UK
+200,March-Ford,British,UK
+201,Lotus-Pratt &amp; Whitney,British,UK
+202,Shadow-Ford,British,UK
+203,Shadow-Matra,British,UK
+204,Brabham-Alfa Romeo,British,UK
+205,Lotus,Malaysian,Malaysia
+206,Marussia,Russian,Russia
+207,Caterham,Malaysian,Malaysia
+208,Lotus F1,British,UK
+209,Manor Marussia,British,UK
+210,Haas F1 Team,American,USA
+211,Racing Point,British,UK
+213,AlphaTauri,Italian,Italy
+214,Alpine F1 Team,French,France

@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Formula One Management</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+    <h1>Gear Shift Genius: Master of Formula 1 Data Management</h1>
+    <img width="64" height="64" src="https://img.icons8.com/external-microdots-premium-microdot-graphic/64/external-car-sport-fitness-vol3-microdots-premium-microdot-graphic-2.png" alt="external-car-sport-fitness-vol3-microdots-premium-microdot-graphic-2"/>
+    <section>
+        <h2>Add New Circuit</h2>
+        <form id="circuitForm" class="form-style"> 
+            <input type="text" id="circuitname" name="circuitname" placeholder="Circuit Name">
+            <input type="text" id="circuitlocation" name="circuitlocation" placeholder="Location">
+            <input type="text" id="circuitcountry" name="circuitcountry" placeholder="Country">
+            <input type="text" id="circuitnationality" name="circuitnationality" placeholder="Nationality">
+            <button type="submit">Submit</button>
+        </form>
+        <div id="resultMessage"></div> <!-- Placeholder for the success message -->
+    </section>
+    <section>
+        <h2>Database Tables</h2>
+        <div class="table-buttons">
+            <button onclick="fetchData('circuits')">Circuits</button>
+            <button onclick="fetchData('races')">Races</button>
+            <button onclick="fetchData('driver')">Drivers</button>
+            <button onclick="fetchData('constructors')">Constructors</button>
+            <button onclick="fetchData('pitstop')">Pit Stops</button>
+            <button onclick="fetchData('laptimes')">Lap Times</button>
+            <button onclick="fetchData('results')">Results</button>
+            <button onclick="fetchData('constructorsstandings')">Constructor Standings</button>
+            <button onclick="fetchData('constructorsresults')">Constructor Results</button>
+            <button onclick="fetchData('driverstandings')">Driver Standings</button>
+        </div>
+        <div id="tableData"></div>
+    </section>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('circuitForm');
+            form.addEventListener('submit', function(event) {
+                event.preventDefault();
+                const formData = new FormData(form);
+                fetch('/submit', {
+                    method: 'POST',
+                    body: formData
+                })
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('resultMessage').textContent = data.message;
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    document.getElementById('resultMessage').textContent = 'Failed to submit data.';
+                });
+            });
+        });
+
+        function fetchData(table_name) {
+            fetch(`/table/${table_name}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.length === 0) {
+                        document.getElementById('tableData').innerHTML = 'No data found.';
+                        return;
+                    }
+                    let table = '<table style="width:100%; border-collapse: collapse;">';
+                    table += '<tr>';
+                    for (const key in data[0]) {
+                        table += `<th style="border: 1px solid #ddd; padding: 8px; text-align: left;">${key}</th>`;
+                    }
+                    table += '</tr>';
+                    data.forEach(row => {
+                        table += '<tr>';
+                        for (const key in row) {
+                            table += `<td style="border: 1px solid #ddd; padding: 8px;">${row[key]}</td>`;
+                        }
+                        table += '</tr>';
+                    });
+                    table += '</table>';
+                    document.getElementById('tableData').innerHTML = table;
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    document.getElementById('tableData').innerHTML = 'Failed to fetch data.';
+                });
+        }
+    </script>
+</body>
+</html>
