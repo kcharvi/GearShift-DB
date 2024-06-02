@@ -720,6 +720,12 @@ AveragePoints DESC;)
 
 Figure 42: Cost estimates from EXPLAIN query
 
+### User Application to Interact with DB
+
+A basic web application was deployed on local to check the connectivity and interact with the database:
+
+![Application](images/application_demo.png)
+
 ### References
 
 -   Dataset Link: Suletanmay. (2024). Formula 1 Dataset 1950-2023 (Cleaned) [Data set]. Kaggle. https://www.kaggle.com/datasets/suletanmay/formula-1-dataset-1950-2023-cleaned
