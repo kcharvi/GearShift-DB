@@ -734,3 +734,9 @@ A basic web application was deployed on local to check the connectivity and inte
 -   PostgreSQL CREATE TABLE. https://www.w3schools.com/postgresql/ postgresql_create_table.php.
 -   PostgreSQL Tutorial. Import CSV File Into PostgreSQL Table. https://www.postgresqltutorial.com/postgresql-tutorial/ import-csv-file-into-posgresql-table/.
 -   PostgreSQL Tutorial. PostgreSQL Foreign Key. Available at: https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-foreign-key/
+
+
+#### Academic Integrity Disclaimer🚨
+This project in this repository is intended solely as an inspiration for your future projects and should be referenced accordingly. It is not meant for students to fulfill their academic project requirements. If a student uses this project for such purposes, the creators are not responsible. The student will be solely accountable for violating academic integrity. We explicitly state that this repository should not be used to meet academic requirements. Therefore, any academic integrity issues should be addressed with the student, not the creators.
+
+
